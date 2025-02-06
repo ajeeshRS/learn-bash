@@ -64,3 +64,20 @@ mkdir -p projects/demo       - Create 'projects' and 'demo' directories if they 
 
 
 ------------------------------------------------------------------------------------------
+
+rmdir directory_name          - Remove an empty directory.
+rmdir -p /path/to/dir         - Remove the directory and its empty parent directories.
+
+# Examples:
+rmdir temp                   - Remove the 'temp' directory (if empty).
+rmdir -p projects/demo       - Remove 'demo' and then 'projects' (if they are empty).
+
+
+
+# Deleting a Non-Empty Folder
+rm -r folder_name             - Deletes the folder and all its contents (files and subdirectories) recursively.
+
+# Force Delete 
+rm -rf folder_name            - Forcefully deletes the folder and its contents.
+
+------------------------------------------------------------------------------------------
