@@ -29,3 +29,22 @@ ls file*                - List all files starting with "file"
 
 ------------------------------------------------------------------------------------------
 
+cd /path/to/directory    - Change to the specified directory.
+cd                       - Change to the home directory (default location).
+
+# Relative Paths
+cd ..                    - Move up one directory (to the parent directory)(to go backward)
+cd ../..                 - Move up two directories.
+cd ./                    - Stay in the current directory (useful for clarity in scripts).
+
+# Shortcuts
+cd -                     - Switch to the previous directory you were in.
+
+# Tab Completion
+cd doc<Tab>              - Use Tab key to autocomplete directory names (e.g., "Documents").
+
+# Error Handling
+cd non_existing_dir      - If the directory doesn't exist, you'll see an error: "No such file or directory."
+
+
+------------------------------------------------------------------------------------------
