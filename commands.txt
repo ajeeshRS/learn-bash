@@ -1,0 +1,31 @@
+# Basic commands
+ 
+------------------------------------------------------------------------------------------
+ls                      - List files and directories in the current directory.
+
+# Options
+ls -a                   - Show all files, including hidden files (starting with .)
+ls -l                   - Display detailed information (permissions, size, owner, etc.)
+ls -h                   - Show file sizes in a human-readable format (e.g., KB, MB)
+ls -r                   - List files in reverse order
+ls -t                   - Sort files by modification time, newest first
+ls -S                   - Sort files by size, largest first
+
+# Combining Options
+ls -lh                  - List detailed information with human-readable file sizes
+ls -lt                  - List detailed information sorted by modification time
+ls -ltr                 - List detailed information sorted by modification time (oldest first)
+
+# Specifying Directories
+ls /path/to/dir         - List files in the specified directory
+ls ../                  - List files in the parent directory
+
+# Recursive Listing
+ls -R                   - List files in all subdirectories
+
+# Filtering
+ls *.txt                - List all files with the .txt extension
+ls file*                - List all files starting with "file"
+
+------------------------------------------------------------------------------------------
+
