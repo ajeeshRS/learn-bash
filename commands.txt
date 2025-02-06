@@ -81,3 +81,33 @@ rm -r folder_name             - Deletes the folder and all its contents (files a
 rm -rf folder_name            - Forcefully deletes the folder and its contents.
 
 ------------------------------------------------------------------------------------------
+
+
+# touch Command
+touch file_name                 - Create an empty file or update the timestamp of an existing file.
+
+# Examples:
+touch myfile.txt                - Create a new file named 'myfile.txt' if it doesn’t exist.
+touch file1.txt file2.txt       - Create multiple files at once.
+touch /path/to/file.txt         - Create a file at a specific location.
+
+# Update Timestamps
+touch existing_file.txt         - Update the access and modification times of 'existing_file.txt' to the current time.
+
+# Set a Specific Timestamp
+touch -t YYYYMMDDhhmm file.txt  - Set a custom timestamp for the file.
+Example:
+touch -t 202502061200 file.txt  - Set the file's timestamp to February 6, 2025, at 12:00 PM.
+
+# Create Multiple Empty Files
+touch file{1..5}.txt            - Create 'file1.txt', 'file2.txt', ..., 'file5.txt' using brace expansion.
+
+# Notes:
+- If the file already exists, `touch` does not modify its contents, only its timestamps.
+
+# Check the Timestamp
+ls -l file.txt                  - Use `ls -l` to check the updated timestamp of the file.
+
+
+------------------------------------------------------------------------------------------
+
