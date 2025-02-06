@@ -111,3 +111,16 @@ ls -l file.txt                  - Use `ls -l` to check the updated timestamp of 
 
 ------------------------------------------------------------------------------------------
 
+
+# mv Command (Move or Rename Files/Directories)
+mv source destination            - Move a file or directory to a new location.
+mv old_name new_name             - Rename a file or directory.
+
+## Examples:
+mv file.txt /path/to/directory/  - Move 'file.txt' to the specified directory.
+mv file1.txt file2.txt /backup/  - Move multiple files to the '/backup/' directory.
+mv oldname.txt newname.txt       - Rename 'oldname.txt' to 'newname.txt'.
+mv dir1 /path/to/dir2/           - Move the directory 'dir1' to 'dir2'.
+
+------------------------------------------------------------------------------------------
+
