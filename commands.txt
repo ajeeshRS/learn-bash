@@ -124,3 +124,21 @@ mv dir1 /path/to/dir2/           - Move the directory 'dir1' to 'dir2'.
 
 ------------------------------------------------------------------------------------------
 
+
+# cp Command (Copy Files and Directories)
+cp source destination            - Copy a file to a new location.
+cp file1 file2 /destination/     - Copy multiple files to a destination directory.
+cp -r source_dir dest_dir        - Copy a directory and all its contents (recursive copy).
+
+## Examples:
+cp file.txt /backup/             - Copy 'file.txt' to the '/backup/' directory.
+cp file1.txt file2.txt /backup/  - Copy 'file1.txt' and 'file2.txt' to '/backup/'.
+cp -r folder1/ folder2/          - Copy 'folder1' and all its contents into 'folder2'.
+
+
+- Unlike `mv`, `cp` leaves the original file or directory unchanged.
+- Use `cp -r` for directories as `cp` alone works only for files.
+
+
+------------------------------------------------------------------------------------------
+
